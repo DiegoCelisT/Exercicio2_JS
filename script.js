@@ -1,12 +1,13 @@
 let Nome1 = prompt ("Olá!, qual é o seu nome?");
-let Idade1 = prompt (Nome1+", qual é a sua idade?");
+let Idade_1 = prompt (Nome1+", qual é a sua idade?");
 let Nome2 = prompt (Nome1+", qual seu/sua personagem favorit@?");
-let Idade2 = prompt ("Quantos anos você acha que "+Nome2+" têm?");
+let Idade_2 = prompt ("Quantos anos você acha que "+Nome2+" têm?");
 let Nome3 = prompt (Nome1+", me da o nome de seu/sua músic@ favorit@");
-let Idade3 = prompt ("Quantos anos você acha que "+Nome3+" têm?");
-Number(Idade1);
-Number(Idade2);
-Number(Idade3);
+let Idade_3 = prompt ("Quantos anos você acha que "+Nome3+" têm?");
+
+let Idade1 =Number(Idade_1);
+let Idade2 =Number(Idade_2);
+let Idade3 =Number(Idade_3);
 
 console.log ("Vamos ver todos esses dados de maneira organizada na seguinte tabela:")
 
