@@ -8,9 +8,10 @@ Number(Idade1);
 Number(Idade2);
 Number(Idade3);
 
+console.log ("Vamos ver todos esses dados de maneira organizada na seguinte tabela:")
+
 /*TABELA NORMAL*/
 /*
-console.log ("Vamos ver todos esses dados de maneira organizada na seguinte tabela:")
 console.table(
     {
         "Seu nome": Nome1,
